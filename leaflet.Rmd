@@ -26,8 +26,10 @@ my_map
 ```
 
 
-
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+#```
+
 
 rm(list = ls()) # clear all environment variables
 
@@ -104,3 +106,5 @@ overlayGroups = c("GDP", "Population"),
 options = layersControlOptions(collapsed = FALSE)
 
 )
+
+```
