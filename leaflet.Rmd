@@ -5,30 +5,9 @@ date: "June 15 2021"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Introduction
-We create a web page using R Markdown that features a map created with Leaflet 
-and host our webpage on either GitHub Pages.
-
-Our webpage must contain the date that we created the document, and it must contain a map created with Leaflet.
-
-### The code of the map
-
-```{r}
-library(leaflet)
-my_map <- leaflet() %>% addTiles() %>%
-        addMarkers(lat=20.31704, lng=-87.35409, 
-             popup="My favorite Park")
-my_map
-```
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-#```
 
 
 rm(list = ls()) # clear all environment variables
