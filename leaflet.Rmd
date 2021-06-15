@@ -21,6 +21,6 @@ Our webpage must contain the date that we created the document, and it must cont
 library(leaflet)
 my_map <- leaflet() %>% addTiles() %>%
         addMarkers(lat=20.31704, lng=-87.35409, 
-             popup="My favorite park")
+             popup="My favorite Park")
 my_map
 ```
